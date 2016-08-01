@@ -21,7 +21,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './www/index.html'))
 })
 
-app.listen(PORT, '0.0.0.0', (err) => {
+app.listen(PORT, HEROKU_URL, (err) => {
   if (err) {
     console.log(err)
     return
