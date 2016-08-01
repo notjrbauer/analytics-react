@@ -1,0 +1,29 @@
+@import "~react-toolbox/lib/colors";
+
+$color-primary: #5CCC5C;
+$color-primary-dark: $palette-blue-700;
+$segmentBrown: #f8f5f0;
+
+
+body {
+  background-color: $segmentBrown !important;
+  padding: 20px;
+}
+.input input {
+  color: #A28F7F;
+  background: #f8f5f0;
+  border: 2px solid #E3DBCE;
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.input {
+  label {
+    font-weight: 100;
+    color: #2F302C;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+

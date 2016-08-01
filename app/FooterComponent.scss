@@ -1,0 +1,27 @@
+.layout {
+  margin: 2px 0;
+  padding: 20px;
+  display: flex;
+  border-radius: 2px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 400;
+  text-align: center;
+
+  label {
+    font-weight: 300;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    font-weight:400;
+    text-decoration: underline;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  a:link    { color: #5CCC5C; }
+  a:visited { color: #5CCC5C; }
+  a:hover   { color: #5CCC5C; }
+  a:active  { color: #5CCC5C; }
+}

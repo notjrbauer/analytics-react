@@ -1,0 +1,28 @@
+.horizontal {
+  margin: 2px 0;
+  background: white;
+  padding: 20px;
+  display: flex;
+  border-radius: 2px;
+  justify-content: space-between;
+  font-weight: 500;
+  a {
+    flex: 1;
+    padding: 6px 12px;
+    color: #A28F7F;
+    text-decoration: none;
+    text-align: center;
+  }
+  abbr {
+    font-size: 1.3rem;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+  }
+  .active {
+    color: #fff;
+    background-color: #5CCC5C;
+    border-color: #4cae4c;
+    border-radius: 1em;
+  }
+}
