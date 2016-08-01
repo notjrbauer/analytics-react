@@ -71,7 +71,7 @@ class App extends React.Component {
 
     var self = this
 //http://192.168.99.100:3000/
-    fetch('http://192.168.99.100:3000/' + this.state.method, {
+    fetch('http://notjrbauer.ngrok.io.ngrok.io/' + this.state.method, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
